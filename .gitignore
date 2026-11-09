@@ -1,0 +1,16 @@
+# Entorno virtual de Python (pesa mucho y se instala con pip)
+.venv/
+venv/
+ENV/
+
+# Archivo de secretos (¡NUNCA SUBIR TU API KEY A GITHUB!)
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Base de datos local SQLite (los datos de prueba no se suben)
+*.db
+chat.db
